@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ElemendidDem.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Button Text="Audi" BackgroundColor="Green"/>
+            <Button Text="Lamborghini" BackgroundColor="Green"/>
+            <Button Text="Bentley" BackgroundColor="Green"/>
+            <Button Text="BMW" BackgroundColor="Green"/>
+            <Button Text="Mercedes-Benz" BackgroundColor="Green"/>
+            <Button Text="Rolls Royce" BackgroundColor="Green"/>
+            <Button Text="Jeep" BackgroundColor="Green"/>
+            <Button Text="Hammer" BackgroundColor="Green"/>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
