@@ -23,7 +23,11 @@ namespace ElemendidDem
             );
             absoluteLayout.Children.Add(
                 new Label { Text = "Audi AG — немецкая автомобилестроительная компания в составе концерна Volkswagen Group, специализирующаяся на выпуске автомобилей под маркой Audi.", FontSize = 20, TextColor = Color.Black },
-                new Rectangle(20, 80, 430, 120)
+                new Rectangle(20, 80, 350, 180)
+            );
+            absoluteLayout.Children.Add(
+                new Label { Text = "Логотип", FontSize = 30, TextColor = Color.Black },
+                new Rectangle(220, 400, 120, 60)
             );
             absoluteLayout.Children.Add(
                 btn1 = new Button { Text = "Больше", FontSize = 20, BackgroundColor = Color.FromHex("#3366FF") },
@@ -35,6 +39,11 @@ namespace ElemendidDem
                 new Rectangle(20, 400, 120, 50)
             );
             btn2.Clicked += Btn2_Clicked;
+            Image img;
+            absoluteLayout.Children.Add(
+                img = new Image { Source = "Audi.png" },
+                new Rectangle(180, 250, 200, 200)
+            );
             Content = absoluteLayout;
         }
 

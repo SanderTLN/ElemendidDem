@@ -51,10 +51,10 @@ namespace ElemendidDem
             Content = st;
             Nissan_btn.Clicked += Nissan_btn_Clicked;
 
-            Button Rolls_btn = new Button { Text = "Rolls Royce", BackgroundColor = Color.Green, Margin = 10 };
-            st.Children.Add(Rolls_btn);
+            Button Porsche_btn = new Button { Text = "Porsche", BackgroundColor = Color.Green, Margin = 10 };
+            st.Children.Add(Porsche_btn);
             Content = st;
-            Rolls_btn.Clicked += Rolls_btn_Clicked;
+            Porsche_btn.Clicked += Porsche_btn_Clicked;
         }
 
         private async void Nissan_btn_Clicked(object sender, EventArgs e)
@@ -67,9 +67,9 @@ namespace ElemendidDem
             await Navigation.PushAsync(new Jeep());
         }
 
-        private async void Rolls_btn_Clicked(object sender, EventArgs e)
+        private async void Porsche_btn_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Rolls());
+            await Navigation.PushAsync(new Porsche());
         }
 
         private async void Mercedes_btn_Clicked(object sender, EventArgs e)
