@@ -27,7 +27,7 @@ namespace ElemendidDem
             );
             absoluteLayout.Children.Add(
                 new Label { Text = "Логотип", FontSize = 30, TextColor = Color.Black },
-                new Rectangle(220, 440, 120, 80)
+                new Rectangle(220, 450, 120, 60)
             );
             absoluteLayout.Children.Add(
                 btn1 = new Button { Text = "Больше", FontSize = 20, BackgroundColor = Color.FromHex("#3366FF") },
